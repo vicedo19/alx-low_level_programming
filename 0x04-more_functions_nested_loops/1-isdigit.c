@@ -1,19 +1,19 @@
 /**
- * _isdigit - checks if input is digit between 0 - 9
+ * _isupper - check if c is upper
  *
- * @c: input
+ * @c: input for alphabet
  *
- * Return: 1 if is digit, 0 if not
+ * Return: 1 if its uppercase, 0 if not
 */
 
-int _isdigit(int c)
+int _isupper(int c)
 {
-	if (!(c >= 0 && c <= 9))
-	{
-		return (1);
-	}
-	else
-	{
-		return (0);
-	}
+    if (c >= 0 && c <= 9)
+    {
+        return (1);
+    }
+    else
+    {
+        return (0);
+    }
 }
