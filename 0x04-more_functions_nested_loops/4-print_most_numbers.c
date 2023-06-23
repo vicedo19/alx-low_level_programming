@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
  * print_most_numbers - print 0 - 9 apart
@@ -23,5 +23,4 @@ void print_most_numbers(void)
 		}
 	}
 	_putchar('\n');
-	return (0);
 }
