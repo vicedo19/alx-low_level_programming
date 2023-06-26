@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - pointer to a parameter
  *
- * Github - vicedo19
+ * return - Always 0
  *
  * @n: An integer input pointer
  */
