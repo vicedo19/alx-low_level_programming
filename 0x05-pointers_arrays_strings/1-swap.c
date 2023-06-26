@@ -3,9 +3,11 @@
 /**
  * swap_int - swap values of integers
  *
- * return - void
+ * @a: First integer swap
  *
- * @n: An int value swap
+ * *b: Second integer swap
+ *
+ * return: void
  */
 
 int swap_int(int *a, int *b)
