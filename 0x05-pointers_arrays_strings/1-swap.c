@@ -5,7 +5,7 @@
  *
  * @a: First argument to be swapped
  *
- * *b: Second argument to be swapped
+ * @b: Second argument to be swapped
  *
  * return: void.
  */
