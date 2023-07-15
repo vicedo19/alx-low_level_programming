@@ -17,7 +17,10 @@ int main(void)
 		{
 			!(ch);
 		}
-		putchar(ch);
+		else
+		{
+			putchar(ch);
+		}
 	}
 	putchar('\n');
 	return (0);
