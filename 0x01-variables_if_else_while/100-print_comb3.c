@@ -5,32 +5,26 @@
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int i, e;
+	int i, j;
 
-	i = 48;
-	e = 48;
-
-	while (e < 58)
+	for (i = 48; i < 57; i++)
 	{
-		i = 48;
-		while (i < 58)
+		for (j = 49; j < 58; j++)
 		{
-			if (e != i && e < i)
+			if (j != i && j > i)
 			{
-				putchar(e);
 				putchar(i);
-				if (i == 57 && e == 56)
+				putchar(j);
+				if (i < 56)
 				{
-					break;
+					putchar(44);
+					putchar(32);
 				}
-				putchar(',');
-				putchar(' ');
 			}
-			i++;
 		}
-		e++;
 	}
 	putchar('\n');
 	return (0);
